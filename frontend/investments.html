@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard | MoneyWise</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--Navbar-->>
+  <div>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Orçamentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Transações</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Investimentos</a>
+      </li>
+    </ul>
+  </div>
+  <div class="d-flex">
+    <!-- SIDEBAR (repetida em todas as páginas) -->
+    <nav class="sidebar text-white d-flex flex-column p-3">
+      <a class="sidebar-logo mb-4" href="index.html">💰 MoneyWise</a>
+      <ul class="nav flex-column gap-1">
+        <li><a class="nav-link" href="index.html">Dashboard</a></li>
+        <li><a class="nav-link" href="transactions.html">Transações</a></li>
+        <li><a class="nav-link" href="budgets.html">Orçamentos</a></li>
+        <li><a class="nav-link" href="investments.html">Investimentos</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <main class="content flex-grow-1 p-4">
+      <h1 class="h3 mb-4">Dashboard</h1>
+      <!-- conteúdo específico de cada página -->
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+</body>
+</html>
